@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+    font-family: Roboto;
+    min-height: 100vh;
+    // background-color: #0D1117;
+    overflow: hidden;
+    // color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Toastify__toast {
+    background: #F9BC61;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+

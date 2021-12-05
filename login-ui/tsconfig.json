@@ -1,0 +1,36 @@
+{
+  "compilerOptions": {
+    "esModuleInterop": true,
+    "jsx": "react",
+    "module": "esnext",
+    "moduleResolution": "node",
+    "lib": [
+      "dom",
+      "esnext"
+    ],
+    "strict": true,
+    "sourceMap": true,
+    "target": "esnext",
+    "baseUrl": ".",
+    "paths": {
+      "@components/*": [
+        "src/components/*"
+      ],
+      "@components": [
+        "src/components/index.ts"
+      ],
+      "@lib/*": [
+        "src/lib/*"
+      ],
+      "@store/*": [
+        "src/store/*"
+      ],
+      "@store": [
+        "src/store/index.ts"
+      ]
+    }
+  },
+  "exclude": [
+    "node_modules"
+  ]
+}
